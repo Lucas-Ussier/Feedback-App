@@ -56,6 +56,12 @@
 		D9045A38290ACAF400CA8967 /* Feedback-App */ = {
 			isa = PBXGroup;
 			children = (
+				D9045A57290ACC6100CA8967 /* Sent Feedback */,
+				D9045A54290ACC3800CA8967 /* Feedback */,
+				D9045A53290ACC2200CA8967 /* View Profile */,
+				D9045A52290ACC1C00CA8967 /* Home */,
+				D9045A51290ACC0E00CA8967 /* Register */,
+				D9045A50290ACC0600CA8967 /* Login */,
 				D9045A4D290ACB0C00CA8967 /* Font */,
 				D9045A39290ACAF400CA8967 /* AppDelegate.swift */,
 				D9045A3B290ACAF400CA8967 /* SceneDelegate.swift */,
@@ -73,6 +79,64 @@
 				D9045A4E290ACB2100CA8967 /* norican.regular.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		D9045A50290ACC0600CA8967 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D9045A51290ACC0E00CA8967 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		D9045A52290ACC1C00CA8967 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D9045A53290ACC2200CA8967 /* View Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Profile";
+			sourceTree = "<group>";
+		};
+		D9045A54290ACC3800CA8967 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				D9045A56290ACC4300CA8967 /* Employee */,
+				D9045A55290ACC3F00CA8967 /* RH */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		D9045A55290ACC3F00CA8967 /* RH */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RH;
+			sourceTree = "<group>";
+		};
+		D9045A56290ACC4300CA8967 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		D9045A57290ACC6100CA8967 /* Sent Feedback */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sent Feedback";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +356,6 @@
 				INFOPLIST_FILE = "Feedback-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +383,6 @@
 				INFOPLIST_FILE = "Feedback-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
