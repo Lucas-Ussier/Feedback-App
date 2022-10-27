@@ -12,7 +12,6 @@
 		D9045A3E290ACAF400CA8967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A3D290ACAF400CA8967 /* ViewController.swift */; };
 		D9045A43290ACAF500CA8967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9045A42290ACAF500CA8967 /* Assets.xcassets */; };
 		D9045A46290ACAF500CA8967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9045A44290ACAF500CA8967 /* LaunchScreen.storyboard */; };
-		D9045A4F290ACB2100CA8967 /* noricanRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9045A4E290ACB2100CA8967 /* noricanRegular.ttf */; };
 		D9045A5A290AFABE00CA8967 /* SentFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A59290AFABE00CA8967 /* SentFeedbackViewController.swift */; };
 		D9045A5C290AFB5900CA8967 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A5B290AFB5900CA8967 /* EmployeeView.swift */; };
 		D9045A5E290AFB8B00CA8967 /* RHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A5D290AFB8B00CA8967 /* RHView.swift */; };
@@ -21,7 +20,6 @@
 		D9045A64290AFBC000CA8967 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A63290AFBC000CA8967 /* FeedbackViewController.swift */; };
 		D9045A66290AFBD600CA8967 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A65290AFBD600CA8967 /* RegisterViewController.swift */; };
 		D9045A68290AFBE800CA8967 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A67290AFBE800CA8967 /* LoginViewController.swift */; };
-		D9045A6B290AFC1A00CA8967 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A6A290AFC1A00CA8967 /* FontManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +30,6 @@
 		D9045A42290ACAF500CA8967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9045A45290ACAF500CA8967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9045A47290ACAF500CA8967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9045A4E290ACB2100CA8967 /* noricanRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = noricanRegular.ttf; path = ../../../../../Downloads/noricanRegular.ttf; sourceTree = "<group>"; };
 		D9045A59290AFABE00CA8967 /* SentFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentFeedbackViewController.swift; sourceTree = "<group>"; };
 		D9045A5B290AFB5900CA8967 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 		D9045A5D290AFB8B00CA8967 /* RHView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RHView.swift; sourceTree = "<group>"; };
@@ -41,7 +38,6 @@
 		D9045A63290AFBC000CA8967 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 		D9045A65290AFBD600CA8967 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D9045A67290AFBE800CA8967 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		D9045A6A290AFC1A00CA8967 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +70,6 @@
 		D9045A38290ACAF400CA8967 /* Feedback-App */ = {
 			isa = PBXGroup;
 			children = (
-				D9045A4D290ACB0C00CA8967 /* Font */,
 				D9045A57290ACC6100CA8967 /* Sent Feedback */,
 				D9045A54290ACC3800CA8967 /* Feedback */,
 				D9045A53290ACC2200CA8967 /* View Profile */,
@@ -89,15 +84,6 @@
 				D9045A47290ACAF500CA8967 /* Info.plist */,
 			);
 			path = "Feedback-App";
-			sourceTree = "<group>";
-		};
-		D9045A4D290ACB0C00CA8967 /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				D9045A4E290ACB2100CA8967 /* noricanRegular.ttf */,
-				D9045A6A290AFC1A00CA8967 /* FontManager.swift */,
-			);
-			path = Font;
 			sourceTree = "<group>";
 		};
 		D9045A50290ACC0600CA8967 /* Login */ = {
@@ -224,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9045A4F290ACB2100CA8967 /* noricanRegular.ttf in Resources */,
 				D9045A46290ACAF500CA8967 /* LaunchScreen.storyboard in Resources */,
 				D9045A43290ACAF500CA8967 /* Assets.xcassets in Resources */,
 			);
@@ -247,7 +232,6 @@
 				D9045A5A290AFABE00CA8967 /* SentFeedbackViewController.swift in Sources */,
 				D9045A64290AFBC000CA8967 /* FeedbackViewController.swift in Sources */,
 				D9045A3C290ACAF400CA8967 /* SceneDelegate.swift in Sources */,
-				D9045A6B290AFC1A00CA8967 /* FontManager.swift in Sources */,
 				D9045A68290AFBE800CA8967 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
