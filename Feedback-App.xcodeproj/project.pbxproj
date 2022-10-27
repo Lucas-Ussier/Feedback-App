@@ -13,6 +13,7 @@
 		D9045A43290ACAF500CA8967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9045A42290ACAF500CA8967 /* Assets.xcassets */; };
 		D9045A46290ACAF500CA8967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9045A44290ACAF500CA8967 /* LaunchScreen.storyboard */; };
 		D9045A4F290ACB2100CA8967 /* norican.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9045A4E290ACB2100CA8967 /* norican.regular.ttf */; };
+		D9045A5A290AFABE00CA8967 /* SentFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A59290AFABE00CA8967 /* SentFeedbackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D9045A45290ACAF500CA8967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9045A47290ACAF500CA8967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9045A4E290ACB2100CA8967 /* norican.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = norican.regular.ttf; path = ../../../../../Downloads/norican.regular.ttf; sourceTree = "<group>"; };
+		D9045A59290AFABE00CA8967 /* SentFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentFeedbackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 		D9045A38290ACAF400CA8967 /* Feedback-App */ = {
 			isa = PBXGroup;
 			children = (
-				D9045A58290AFA0200CA8967 /* Teste */,
 				D9045A57290ACC6100CA8967 /* Sent Feedback */,
 				D9045A54290ACC3800CA8967 /* Feedback */,
 				D9045A53290ACC2200CA8967 /* View Profile */,
@@ -136,15 +137,9 @@
 		D9045A57290ACC6100CA8967 /* Sent Feedback */ = {
 			isa = PBXGroup;
 			children = (
+				D9045A59290AFABE00CA8967 /* SentFeedbackViewController.swift */,
 			);
 			path = "Sent Feedback";
-			sourceTree = "<group>";
-		};
-		D9045A58290AFA0200CA8967 /* Teste */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Teste;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +215,7 @@
 			files = (
 				D9045A3E290ACAF400CA8967 /* ViewController.swift in Sources */,
 				D9045A3A290ACAF400CA8967 /* AppDelegate.swift in Sources */,
+				D9045A5A290AFABE00CA8967 /* SentFeedbackViewController.swift in Sources */,
 				D9045A3C290ACAF400CA8967 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
