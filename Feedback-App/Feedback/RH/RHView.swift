@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EmployeeView: UIView{
+class RHView: UIView{
     
     
 }
