@@ -12,7 +12,7 @@
 		D9045A3E290ACAF400CA8967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A3D290ACAF400CA8967 /* ViewController.swift */; };
 		D9045A43290ACAF500CA8967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9045A42290ACAF500CA8967 /* Assets.xcassets */; };
 		D9045A46290ACAF500CA8967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9045A44290ACAF500CA8967 /* LaunchScreen.storyboard */; };
-		D9045A4F290ACB2100CA8967 /* norican.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9045A4E290ACB2100CA8967 /* norican.regular.ttf */; };
+		D9045A4F290ACB2100CA8967 /* noricanRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9045A4E290ACB2100CA8967 /* noricanRegular.ttf */; };
 		D9045A5A290AFABE00CA8967 /* SentFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A59290AFABE00CA8967 /* SentFeedbackViewController.swift */; };
 		D9045A5C290AFB5900CA8967 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A5B290AFB5900CA8967 /* EmployeeView.swift */; };
 		D9045A5E290AFB8B00CA8967 /* RHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9045A5D290AFB8B00CA8967 /* RHView.swift */; };
@@ -32,7 +32,7 @@
 		D9045A42290ACAF500CA8967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9045A45290ACAF500CA8967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9045A47290ACAF500CA8967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9045A4E290ACB2100CA8967 /* norican.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = norican.regular.ttf; path = ../../../../../Downloads/norican.regular.ttf; sourceTree = "<group>"; };
+		D9045A4E290ACB2100CA8967 /* noricanRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = noricanRegular.ttf; path = ../../../../../Downloads/noricanRegular.ttf; sourceTree = "<group>"; };
 		D9045A59290AFABE00CA8967 /* SentFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentFeedbackViewController.swift; sourceTree = "<group>"; };
 		D9045A5B290AFB5900CA8967 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 		D9045A5D290AFB8B00CA8967 /* RHView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RHView.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		D9045A4D290ACB0C00CA8967 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				D9045A4E290ACB2100CA8967 /* norican.regular.ttf */,
+				D9045A4E290ACB2100CA8967 /* noricanRegular.ttf */,
 				D9045A6A290AFC1A00CA8967 /* FontManager.swift */,
 			);
 			path = Font;
@@ -224,7 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9045A4F290ACB2100CA8967 /* norican.regular.ttf in Resources */,
+				D9045A4F290ACB2100CA8967 /* noricanRegular.ttf in Resources */,
 				D9045A46290ACAF500CA8967 /* LaunchScreen.storyboard in Resources */,
 				D9045A43290ACAF500CA8967 /* Assets.xcassets in Resources */,
 			);
